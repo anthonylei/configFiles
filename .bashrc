@@ -31,6 +31,5 @@ alias hs='history | grep'
 alias clr='clear'
 
 # Directory & excutable alias
-alias gios = 'cd /home/anthony/ios/'
-
+alias gios='cd /home/anthony/ios/'
 
