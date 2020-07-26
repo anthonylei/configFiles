@@ -1,19 +1,25 @@
 # git alias:
 alias gs='git status '
-alias ga='git add'
+alias gaf='git add'
+alias gaa='git add .'
+alias gcm='git commit -m'
+alias gpa='git pull origin'
+alias gpm='git pull origin master'
+alias gco='git checkout'
+
 alias gb='git branch'
 alias gba='git branch -av'
-alias gp='git pull'
-alias gcm='git commit -m'
-alias gd='git diff'
-alias gco='git checkout'
 alias gl='git log'
 alias glf='git log -p'
 alias glg='git log --all --decorate --oneline --graph'
+alias gls='git log --grep'
+
 alias gsl='git stash list'
 alias gsa='git stash apply'
-alias gls='git log --grep'
+alias gsp='git stash push -m'
+alias gd='git diff'
 alias gdf='git diff --no-index'
+alias gcn='git clean -i'
 
 # shell alias
 alias ll='ls -altr'
