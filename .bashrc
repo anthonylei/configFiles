@@ -6,6 +6,7 @@ alias gcm='git commit -m'
 alias gpa='git pull origin'
 alias gpm='git pull origin master'
 alias gco='git checkout'
+alias gcb='git checkout --track -b'
 alias gpho='git push origin'
 
 alias gb='git branch'
