@@ -25,6 +25,16 @@ alias gd='git diff'
 alias gdf='git diff --no-index'
 alias gcn='git clean -i'
 
+# Kubernetes alias:
+alias kg='kubectl get'
+alias kaf='kubectl apply -f'
+alias kgp='kubectl get pods'
+alias kgs='kubectl get services'
+alias kd='kubectl describe'
+alias kci='kubectl cluster-info'
+alias kdl='kubectl delete'
+alias kl='kubectl logs'
+
 # shell alias
 alias ll='ls -altr'
 alias ..='cd ..'
