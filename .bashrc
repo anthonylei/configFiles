@@ -46,3 +46,5 @@ alias clr='clear'
 # Directory & excutable alias
 alias gios='cd /home/anthony/ios/'
 
+# Path
+export PATH="$HOME/.emacs.d/bin:$PATH"
